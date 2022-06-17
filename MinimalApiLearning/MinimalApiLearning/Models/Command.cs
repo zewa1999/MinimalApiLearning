@@ -4,6 +4,7 @@ namespace MinimalApiLearning.Models;
 
 public class Command
 {
+    [Key]
     public int Id { get; set; }
 
     [Required]
